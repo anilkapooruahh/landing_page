@@ -1,0 +1,65 @@
+/*Utility Classes*/
+.dark_bg {
+    background-color: #1f2937;
+}
+.main_text {
+    font-weight: bold;
+    color: #f9faf8;
+}
+h1 {
+    font-size: 48px;
+}
+.secondary_text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button_color {
+    background-color: #3882f6;
+    border-radius: 15%;
+    border: 0ch;
+    padding: 1em 2em 1em 2em;
+}
+
+body {
+    font-family: "Roboto";
+}
+.logo {
+    max-width: 10vh;
+}
+.awesome img {
+    max-width: 60vh;   
+}
+
+.picture-card img {
+    max-width: 30vh;
+}
+
+.awesome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em 5em 5em;
+    padding: 5em;
+   
+}
+
+.awesome h1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.awesome p {
+    grid-column: 1;
+    grid-row: 2;
+}
+.awesome button {
+    grid-row: 3;
+    grid-column: 1;
+    width: fit-content;
+    height: fit-content;
+}
+.awesome img {
+    grid-column: 2;
+    grid-row: 1/-1;
+}
+
